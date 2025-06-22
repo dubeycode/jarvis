@@ -6,7 +6,7 @@ from datetime import datetime
 # Initialize speech recognizer & text-to-speech engine
 r = sr.Recognizer()
 engine = pyttsx3.init()
-genai.configure(api_key="AIzaSyAmYnwXQad6FIKKFiG4svYRYls0z7ENh50")
+genai.configure(api_key=" llm api key ")
 model = genai.GenerativeModel("gemini-pro")
 
 def listening_hotword():
