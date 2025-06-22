@@ -2,7 +2,7 @@ import google.generativeai as genai
 import speech_recognition as sr
 import pyttsx3, os, webbrowser
 from datetime import datetime
-genai.configure(api_key="AIzaSyAmYnwXQad6FIKKFiG4svYRYls0z7ENh50")
+genai.configure(api_key="your own api key")
 model = genai.GenerativeModel("gemini-pro")
 
 # Initialize speech recognizer & text-to-speech engine
